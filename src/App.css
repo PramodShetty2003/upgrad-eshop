@@ -1,0 +1,19 @@
+.new-folder-button {
+  position: fixed; /* Positions the button at the bottom */
+  bottom: 20px; /* Sets the distance from the bottom */
+  right: 20px; /* Sets the distance from the right */
+  background-color: #4CAF50; /* Green color for the button */
+  color: white; /* White text color */
+  padding: 10px 15px; /* Padding for the button */
+  border: none; /* Removes default border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Changes cursor to pointer on hover */
+  display: flex; /* Arranges content in a row */
+  align-items: center; /* Aligns content vertically */
+  justify-content: center; /* Aligns content horizontally */
+  gap: 5px; /* Margin between icon and text */
+}
+
+.new-folder-button:hover {
+  background-color: #3e8e41; /* Darker green on hover */
+}

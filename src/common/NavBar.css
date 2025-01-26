@@ -1,0 +1,87 @@
+/* Overall navbar styling */
+.navbar {
+    height: 10vh; /* Use viewport height for better adaptability */
+    justify-content: center;
+  }
+  
+  /* Toolbar styling */
+  .navbar-toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; /* Wrap items for smaller screens */
+    padding: 0 2vw; /* Use viewport width for padding */
+  }
+  
+  /* Logo section */
+  .navbar-logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Title next to the logo */
+  .navbar-title {
+    margin-left: 1vw; /* Adjust margin based on viewport */
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  /* Search bar styling */
+  .navbar-search {
+    background-color: white;
+    border-radius: 5px;
+    width: 100%; /* Full width for mobile devices */
+    max-width: 50vw; /* Limit width on larger screens */
+    margin: 1vh 0; /* Margin for mobile responsiveness */
+    padding: 0.5vh; /* Padding for better usability */
+    font-size: 1rem; /* Adjust font size */
+  }
+  
+  @media (min-width: 768px) {
+    .navbar-search {
+      width: 40%; /* Shrinks to 40% for medium screens and larger */
+    }
+  }
+  
+  /* Right links section */
+  .navbar-links {
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+    flex-wrap: wrap; /* Wrap links for smaller screens */
+  }
+  
+  .navbar-links button {
+    text-transform: none; /* Prevent button text from becoming uppercase */
+    font-size: 0.9rem;
+    padding: 0.5vh 1vw; /* Add responsive padding */
+  }
+  
+  /* Responsive breakpoints */
+  @media (max-width: 768px) {
+    .navbar-toolbar {
+      flex-direction: column; /* Stack items for smaller screens */
+      align-items: center;
+    }
+  
+    .navbar-links {
+      justify-content: center; /* Center links on small screens */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .navbar-title {
+      font-size: 1.2rem; /* Reduce title size for very small screens */
+    }
+  
+    .navbar-search {
+      max-width: 90%; /* Allow more room for the search bar on small screens */
+      font-size: 0.9rem;
+    }
+  
+    .navbar-links button {
+      font-size: 0.8rem; /* Adjust button text size */
+      padding: 0.4vh 1vw;
+    }
+  }
+  

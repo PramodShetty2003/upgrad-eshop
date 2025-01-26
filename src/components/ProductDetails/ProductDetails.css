@@ -1,0 +1,101 @@
+/* General styling for the product details page */
+.product-details-page {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+/* Dynamic styling for the card to maintain consistency */
+.product-details-card {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  max-width: 900px;
+  width: 100%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+/* Styling for the image section */
+.product-details-image-section {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.product-details-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+.product-details-no-image-text {
+  font-style: italic;
+  color: gray;
+}
+
+/* Styling for the information section */
+.product-details-info-section {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 10px;
+}
+
+/* Styling for product name and availability tag */
+.product-details-name-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.product-details-name {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.product-details-availability-tag {
+  background-color: #007bff;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+/* Styling for category */
+.product-details-category {
+  font-size: 16px;
+  font-weight: bold;
+  color: rgb(8, 7, 7);
+}
+
+/* Styling for short description */
+.product-details-description-short {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.5;
+}
+
+/* Styling for price */
+.product-details-price {
+  color: red;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Styling for quantity input */
+.product-details-quantity-input {
+  width: 150px;
+}
+
+/* Styling for place order button */
+.product-details-place-order-button {
+  width: fit-content;
+  align-self: flex-start;
+  margin-top: 10px;
+}

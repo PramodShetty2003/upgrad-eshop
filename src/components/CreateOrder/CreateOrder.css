@@ -1,0 +1,141 @@
+.create-order-page {
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  .stepper-container {
+    margin-bottom: 20px;
+  }
+  
+  .step-content {
+    margin: 20px 0;
+  }
+  
+  /* Styling for Step 1: Items */
+  .item-page {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .item-card {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    max-width: 900px;
+    width: 100%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .item-image-section {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .item-image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 8px;
+  }
+  
+  .item-info-section {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .item-name-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .item-name {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .item-category {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .item-description {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.5;
+  }
+  
+  .item-price {
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .item-quantity-ordered {
+    font-size: 16px;
+  }
+  
+  /* Styling for Step 2: Select Address */
+  .address-page .address-input {
+    margin-top: 10px;
+  }
+  
+  /* Navigation Buttons */
+  .navigation-buttons {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+  }
+  
+  .address-step {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .address-dropdown {
+    width: 100%;
+  }
+  
+  .or-separator {
+    margin: 10px 0;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .add-address-heading {
+    margin-top: 20px;
+  }
+  
+  .add-address-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  
+  .address-input {
+    grid-column: span 2;
+  }
+  
+  .save-address-button {
+    grid-column: span 2;
+    justify-self: start;
+  }
+  
+  .next-button-container {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .next-button {
+    margin-top: 20px;
+  }
+  
